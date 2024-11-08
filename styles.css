@@ -1,0 +1,56 @@
+body {
+color: white;
+background: pink;
+margin: 0px;
+font-family: "Libre Baskerville", serif;
+margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 30px;
+    font-size: 32px;
+    color: white;
+}
+
+.chamada{
+    background: rgb(184,156,213);
+padding-bottom:80px;
+padding-top: 80px;
+display:flex;
+justify-content: center;
+}
+
+.camada-texto{
+margin-right: 10%;
+}
+
+
+h1{
+    font-size: 45px;
+}
+
+p{
+font-size: 20px;
+}
+
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap:15px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+        opacity:0,5;
+height:250px;
+}
+.categoria-videos img:hover{
+opacity:1.0;
+border:1px solid purple;
+}
